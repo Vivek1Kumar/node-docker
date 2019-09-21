@@ -5,5 +5,5 @@ sevices:
 before_install:
   - docker build -t node-docker -f Dockerfile.dev .
 
-script:
-  -  run 
+# script:
+#   -  run 
